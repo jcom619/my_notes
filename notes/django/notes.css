@@ -1,0 +1,33 @@
+img {
+  border-radius: 0px;
+}
+#diagram {
+  margin-bottom: 30px;
+}
+
+.image-box {
+  margin: 0px;
+  padding: 20%;
+}
+
+.thumbnail {
+  margin-bottom: 30px;
+
+}
+.title {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 750px) {
+  .image-box {
+    padding: 0px;
+  }
+
+}
+@media screen and (min-width: 750px) {
+  .image-box {
+    padding: 25%;
+  }
+  .title {
+    margin-bottom: -200px;
+  }
+}
