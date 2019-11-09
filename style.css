@@ -13,6 +13,12 @@ body {
   padding: 0px;
   text-align: center;
 }
+footer {
+  padding: 30px;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
 h1 {
   font-family: noteworthy;
   color: rgba(255,255,255, 0.5);
@@ -22,6 +28,13 @@ h2 {
   font-family: noteworthy;
   color: rgba(255,255,255, 0.5);
   text-shadow: 0px 0px 25px black;
+}
+table {
+  text-align: center;
+  width: 90%;
+}
+th {
+  color: gray;
 }
 #icon {
   border: 0px solid black;
@@ -85,7 +98,6 @@ h2 {
 /* Links inside the dropdown */
 .dropdown-content a {
   margin: 10px;
-
   color: rgba(180,180,180, 1);
   background-color: rgba(0,0,0,0.8);
   box-shadow: 0px 8px 16px 0px black;
