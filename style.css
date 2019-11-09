@@ -1,6 +1,4 @@
-a {
 
-}
 body {
   background: rgb(58,180,152);
   background: radial-gradient(circle,
@@ -107,6 +105,7 @@ h2 {
 img {
   border-radius: 20px;
   box-shadow: 0px 0px 30px black;
+
 }
 .cell {
   background: rgb(58,180,152);
@@ -119,6 +118,7 @@ img {
   border: 2px solid rgba(0,0,0,0.5);
   margin: 15px;
   border-radius: 20px;
+
   box-shadow: inset 0px 0px 20px black;
 }
 
@@ -150,20 +150,23 @@ img {
 
 @media screen and (max-width: 750px) {
   body {
-    background: white;
-    background-color: rgba(120,160,130,0.75);
+    background-color: #486e75;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
     box-shadow: inset 0px 0px 50px black;
   }
   img {
     width: 100%;
     border-radius: 50%;
-    border: 2px solid rgba(200,100,0,1);
+    border: 3px solid rgba(200,100,0,1);
   }
   .cell {
    background: rgba(0, 0, 0, 0);
-   box-shadow: inset 0px 0px 0px black;
-   border: 2px solid rgba(0,0,0,0);
+   box-shadow: 0px 0px 0px black;
+   border: 0px solid rgba(0,0,0,0);
 
+  }
+  .cell:hover {
+    border: 0px solid rgba(0,0,0,0);
   }
   .container {
     margin: 0px;
