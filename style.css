@@ -1,6 +1,6 @@
 @font-face { font-family: dacasa; src: url('fonts/dacasa.ttf'); }
 @font-face {
-  font-display: auto;
+  font-display: swap;
   font-family: EatnCake;
   src: url('fonts/EatnCake.ttf');
 }
@@ -8,7 +8,7 @@
 @font-face { font-family: Antero; src: url('fonts/Antero.ttf'); }
 @font-face { font-family: AnakAnak; src: url('fonts/AnakAnak.ttf'); }
 @font-face {
-  font-display: auto;
+  font-display: swap;
   font-family: CarrinadyBold;
   src: url('fonts/CarrinadyBold.ttf');
 }
