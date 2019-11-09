@@ -1,6 +1,8 @@
 @font-face { font-family: dacasa; src: url('fonts/dacasa.ttf'); }
 @font-face { font-family: EatnCake; src: url('fonts/EatnCake.ttf'); }
-
+@font-face { font-family: Amandella; src: url('fonts/Amandella.ttf'); }
+@font-face { font-family: Antero; src: url('fonts/Antero.ttf'); }
+@font-face { font-family: AnakAnak; src: url('fonts/AnakAnak.ttf'); }
 
 
 a {
@@ -31,6 +33,7 @@ footer {
 }
 h1 {
   font-family: EatnCake;
+  font-size: 2em;
   color: rgba(155,155,155, 1);
   text-shadow: 0px 0px 25px black;
 }
