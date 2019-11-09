@@ -19,6 +19,12 @@ h2 {
   color: rgba(255,255,255, 0.5);
   text-shadow: 0px 0px 25px black;
 }
+#icon {
+  border: 0px solid black;
+  box-shadow: 0px 0px 0px black;
+  width: 300px;
+  margin-top: 100px;
+}
 .title {
   font-size: 30px;
   font-family: noteworthy;
@@ -106,6 +112,8 @@ h2 {
 /* gallery */
 
 /* ####################################### */
+
+
 img {
   border-radius: 20px;
   box-shadow: 0px 0px 30px black;
