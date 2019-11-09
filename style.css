@@ -12,12 +12,17 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+  min-height: 100vh;
 }
 footer {
-  padding: 30px;
-  position: relative;
-  bottom: 0;
+  width: 100vw;
+  margin-top: 10em;
+  padding-bottom: 2em;
+  padding-top: 1em;
   text-align: center;
+  background-color: rgba(155, 155, 155, 0.5);
+  border-top: 2px solid rgba(28,100,92, 1);
+  box-shadow: 0px 0px 150px black;
 }
 h1 {
   font-family: noteworthy;
@@ -31,10 +36,12 @@ h2 {
 }
 table {
   text-align: center;
+  font-size: 20px;
   width: 90%;
 }
 th {
-  color: gray;
+  color: rgba(200,200,200,0.8);
+  text-shadow: 0px 0px 5px black;
 }
 #icon {
   border: 0px solid black;
@@ -175,9 +182,6 @@ img {
 
 
 @media screen and (max-width: 750px) {
-  body {
-
-  }
 
   img {
     width: 100%;
@@ -188,6 +192,7 @@ img {
   img:hover {
     border: 3px solid rgba(200,100,0,1);
   }
+  
   .cell {
    background: rgba(0, 0, 0, 0);
    box-shadow: 0px 0px 0px black;
@@ -202,9 +207,21 @@ img {
     padding: 0px;
     border-radius: 0px;
   }
+  .dropbtn {
+
+
+    font-size: 30px;
+  }
   .title {
     font-size: 1.5em;
     color: rgba(28,100,92, 1);
     text-shadow: 0px 0px 3px rgba(200,200,200,1);
   }
 }
+
+
+
+
+
+
+/*  */
