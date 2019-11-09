@@ -220,6 +220,7 @@ img {
   }
   h1 {
     font-size: 4em;
+    margin-top: -10px;
   }
   #icon {
     border-radius: 0px;
