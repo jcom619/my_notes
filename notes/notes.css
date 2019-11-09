@@ -17,8 +17,6 @@ img {
   font-size: 20px;
 /*
 
-
-
   margin-top: 10px;
   font-size: 16px;
 
@@ -27,7 +25,7 @@ img {
  */
 
 
- box-shadow: 0px 0px 25px black;
+  box-shadow: 0px 0px 25px black;
   font-size: 10px;
   border: 2px solid rgba(28,100,92, 1);
   padding: 8px;

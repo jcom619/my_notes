@@ -189,7 +189,7 @@ img {
   width: 100vw;
   display: flex;
   justify-content: center;
-  animation: scale 1.1s;
+  animation: scale .5s;
 }
 @keyframes scale {
     from {
