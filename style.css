@@ -212,6 +212,7 @@ img {
   }
   #icon {
     border-radius: 0px;
+    width: 4em;
   }
   .cell {
    background: rgba(0, 0, 0, 0);
