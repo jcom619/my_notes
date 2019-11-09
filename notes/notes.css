@@ -15,7 +15,7 @@ img {
 .title-image {
   border-radius: 50%;
   width: 6em;
-  margin-bottom: -55px;
+  margin-bottom: -95px;
   border-top: 0px solid rgba(0,0,0,0);
   border-bottom: 0px solid rgba(0,0,0,0);
   border: 3px solid rgba(155, 150, 150, 0.5);
@@ -28,6 +28,9 @@ img {
 @media screen and (max-width: 750px) {
   .image-box {
     padding: 0px;
+  }
+  .title-image {
+    margin-bottom: 0px;
   }
   img {
     border-radius: 0px;
