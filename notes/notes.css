@@ -11,6 +11,19 @@ img {
 .thumbnail {
   margin-bottom: 50px;
 }
+.title-image {
+  border-radius: 50%;
+  width: 6em;
+  margin-bottom: -85px;
+  border-top: 0px solid rgba(0,0,0,0);
+  border-bottom: 0px solid rgba(0,0,0,0);
+  border: 3px solid rgba(155, 150, 150, 0.5);
+}
+.title-image:hover {
+  border-top: 0px solid rgba(0,0,0,0);
+  border-bottom: 0px solid rgba(0,0,0,0);
+  border: 3px solid rgba(155, 150, 150, 1);
+}
 @media screen and (max-width: 750px) {
   .image-box {
     padding: 0px;
