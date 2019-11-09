@@ -157,6 +157,7 @@ img {
   img {
     width: 100%;
     border-radius: 50%;
+    border: 2px solid rgba(200,100,0,1);
   }
   .cell {
    background: rgba(0, 0, 0, 0);
