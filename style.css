@@ -3,6 +3,8 @@
 @font-face { font-family: Amandella; src: url('fonts/Amandella.ttf'); }
 @font-face { font-family: Antero; src: url('fonts/Antero.ttf'); }
 @font-face { font-family: AnakAnak; src: url('fonts/AnakAnak.ttf'); }
+@font-face { font-family: CarrinadyBold; src: url('fonts/CarrinadyBold.otf'); }
+
 
 
 a {
@@ -32,10 +34,10 @@ footer {
   box-shadow: 0px 0px 150px black;
 }
 h1 {
-  font-family: EatnCake;
-  font-size: 2em;
+  font-family: CarrinadyBold;
+  font-size: 5em;
   color: rgba(155,155,155, 1);
-  text-shadow: 0px 0px 25px black;
+  text-shadow: 1px 1px 5px black;
 }
 h2 {
   font-family: noteworthy;
@@ -56,7 +58,8 @@ th {
   border: 0px solid black;
   box-shadow: 0px 0px 0px black;
   width: 100px;
-  margin-top: 20px;
+  margin-top: -80px;
+  padding: 30px;
 }
 .title {
   font-size: 30px;
@@ -205,7 +208,12 @@ img {
   img:hover {
     border: 3px solid rgba(200,100,0,1);
   }
-
+  h1 {
+    font-size: 4em;
+  }
+  #icon {
+    border-radius: 0px;
+  }
   .cell {
    background: rgba(0, 0, 0, 0);
    box-shadow: 0px 0px 0px black;
@@ -232,7 +240,11 @@ img {
   }
 }
 
-
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 3em;
+  }
+}
 
 
 
