@@ -21,4 +21,9 @@ img {
     border-bottom: 5px solid rgba(0,0,0,0);
     width: 100%;
   }
+  img:hover {
+    border: 0px;
+    border-top: 5px solid rgba(0,0,0,0);
+    border-bottom: 5px solid rgba(0,0,0,0);
+  }
 }
