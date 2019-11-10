@@ -176,7 +176,7 @@ th {
   top:0;
   left:0;
   padding:10px 10px;
-  border-radius:100px;
+  border-radius:50%;
   display:inline-block;
   transition: all .5s;
 }
