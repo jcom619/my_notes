@@ -20,8 +20,6 @@
           <a href="#templates">Building Templates</a>
           <a href="#static">Static Media files</a>
           <a href="#toolbar">Debug toolbar</a>
-
-
           <a href="#">Top</a>
           <a onclick="history.back()">BACK</a>
         </div>
@@ -36,35 +34,27 @@
 
 
 <!-- IMAGES -->
-
-
-
   <div class="image-box">
-
     <div id="diagram">
       <div class="thumbnail">
         <img src="image/diagram.png" alt="" width="100%">
       </div>
     </div>
-
     <div id="commands">
       <div class="thumbnail ">
         <img src="image/commands.png" alt="" width="100%">
       </div>
     </div>
-
     <div id="django_structure">
       <div class="thumbnail ">
         <img src="image/django_structure.png" alt="" width="100%">
       </div>
     </div>
-
     <div id="first_app">
       <div class="thumbnail ">
         <img src="image/first_app1.png" alt="" width="100%">
       </div>
     </div>
-
     <div id="templates">
       <div class="thumbnail">
         <img src="image/templates1.png" alt="" width="100%">
@@ -80,7 +70,6 @@
         <img src="image/templates11.png" alt="" width="100%">
       </div>
     </div>
-
     <div id="static">
       <div class="thumbnail ">
         <img src="image/static1.png" alt="" width="100%">
@@ -90,7 +79,6 @@
         <img src="image/static5.png" alt="" width="100%">
       </div>
     </div>
-
     <div id="toolbar">
       <div class="thumbnail">
         <img src="image/toolbar.png" alt="" width="100%">
@@ -105,13 +93,20 @@
         <img src="image/toolbar10.png" alt="" width="100%">
       </div>
     </div>
-
-
   </div>
 
+<!-- BACK BUTTON-->
+  <div onclick="history.back()" class="box">
+    <a href="" onclick="return yes_back_button();" class="btn btn-white btn-animation-1"><<</a>
+  </div>
 
-
-
-
+<!--  IN FILE SCRIPTS  -->
+  <script type="text/javascript">
+  //  BACK BUTTON
+  yes_back_button = function() {
+     // Your code here
+     return false;
+  }
+</script>
   </body>
 </html>
