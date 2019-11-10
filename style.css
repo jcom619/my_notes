@@ -171,7 +171,6 @@ th {
 
 .btn:link,
 .btn:visited{
-
   text-transform:uppercase;
   position:relative;
   top:0;
@@ -184,7 +183,7 @@ th {
 
 .btn-white{
   background-color: rgba(255,255,255,0.4);
-  border: 2px solid rgba(28,100,92, 1);
+  border: 1px solid rgba(28,100,92, 1);
   box-shadow: 0px 0px 25px black;
   color: rgba(255,255,255, 0.6);
   text-shadow: 0px 0px 5px black;
