@@ -15,22 +15,12 @@ img {
   color: rgba(255,255,255, 0.6);
   text-shadow: 0px 0px 5px black;
   font-size: 20px;
-/*
-
-  margin-top: 10px;
-  font-size: 16px;
-
-
-  cursor: pointer;
- */
-
-
   box-shadow: 0px 0px 25px black;
   font-size: 10px;
   border: 2px solid rgba(28,100,92, 1);
   padding: 8px;
   width: 20px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 .image-box {
   margin: 0px;
