@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../notes.css">
+    <meta charset="utf-8">
+    <title>JQuery Notes</title>
+  </head>
+  <body>
+
+<!-- MENU -->
+    <div class="btnHolder">
+      <div class="dropdown">
+        <button class="dropbtn">MENU</button>
+        <div class="dropdown-content">
+
+          <a href="#">Top</a>
+          <a onclick="history.back()">BACK</a>
+        </div>
+      </div>
+    </div>
+
+<!-- TITLE -->
+    <div class="title">
+      <img src="../../images/performance.webp" class="title-image"/>
+      <h1>Style Tricks</h1>
+    </div>
+
+
+<!-- IMAGES -->
+  <div class="image-box container">
+
+
+    <div class="Image parLink" id="">
+      <div class="thumbnail">
+        <a href="scroll/scroll.html">
+          <p Table>Click this text to view a scroll effect demo and links to the code</p>
+          <img src="image/parallax1.png" alt="" width="100%">
+        </a>
+      </div>
+    </div>
+
+    <div class="Image" id="">
+      <div class="thumbnail">
+        <img src="image/parallax2.png" alt="" width="100%">
+      </div>
+    </div>
+
+    <div class="Image" id="">
+      <div class="thumbnail">
+        <img src="image/parallax3.png" alt="" width="100%">
+      </div>
+    </div>
+
+    <div class="Image" id="">
+      <div class="thumbnail">
+        <img src="image/parallax4.png" alt="" width="100%">
+      </div>
+    </div>
+
+    <div class="Image" id="">
+      <div class="thumbnail">
+        <img src="image/parallax5.png" alt="" width="100%">
+      </div>
+    </div>
+
+    <div class="Image" id="">
+      <div class="thumbnail">
+        <img src="image/parallax6.png" alt="" width="100%">
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!-- BACK BUTTON-->
+    <div onclick="history.back()" class="box">
+      <a href="" onclick="return yes_back_button();" class="btn btn-white btn-animation-1"><<</a>
+    </div>
+
+  <!--  IN FILE SCRIPTS  -->
+    <script type="text/javascript">
+    //  BACK BUTTON
+    yes_back_button = function() {
+       // Your code here
+       return false;
+    }
+  </script>
+
+
+  </body>
+</html>
