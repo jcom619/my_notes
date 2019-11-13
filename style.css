@@ -1,16 +1,25 @@
-@font-face { font-family: dacasa; src: url('fonts/dacasa.ttf'); }
+@font-face {
+  font-family: dacasa;
+  src: url('fonts/dacasa.ttf');
+}
 @font-face {
   font-display: swap;
   font-family: EatnCake;
   src: url('fonts/EatnCake.ttf');
 }
-@font-face { font-family: Amandella; src: url('fonts/Amandella.ttf'); }
+@font-face {
+  font-family: Amandella;
+  src: url('fonts/Amandella.ttf');
+}
 @font-face {
   font-display: swap;
   font-family: Antaro;
   src: url('fonts/Antaro.ttf');
 }
-@font-face { font-family: AnakAnak; src: url('fonts/AnakAnak.ttf'); }
+@font-face {
+  font-family: AnakAnak;
+  src: url('fonts/AnakAnak.ttf');
+}
 @font-face {
   font-display: swap;
   font-family: CarrinadyBold;
