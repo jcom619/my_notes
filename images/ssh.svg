@@ -1,0 +1,13 @@
+<svg version="1.1" width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="logo">
+
+  <circle r="11" cx="12" cy="12" fill="rgba(0,0,0,0.7)" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+
+  <text x="2" y="16" stroke="black" stroke-width="6" fill="none" >ssh</text>
+  <text x="2" y="16" stroke="gray" stroke-width="5" fill="none" >ssh</text>
+  <text x="2" y="16" stroke="black" stroke-width="4" fill="none" >ssh</text>
+  <text x="2" y="16" stroke="gray" stroke-width="3" fill="none" >ssh</text>
+  <text x="2" y="16" stroke="black" stroke-width="2" fill="none" >ssh</text>
+
+  <circle r="12" cx="12" cy="12" fill="rgba(100,0,20,0.2)" stroke="rgba(155,155,155,1)" stroke-width="1"/>
+
+</svg>

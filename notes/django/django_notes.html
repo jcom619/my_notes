@@ -10,105 +10,73 @@
     <title>Django Notes</title>
   </head>
   <body>
+    <div class="container all">
+      <!-- MENU -->
+          <div class="btnHolder">
+            <div class="dropdown">
+              <button class="dropbtn">MENU</button>
+              <div class="dropdown-content">
+                <a onclick="commands()">Commands</a>
+                <a onclick="fileStructure()">File Structure</a>
+                <a onclick="firstApp()">Getting Started</a>
+                <a onclick="temps()">Building Templates</a>
+                <a onclick="static()">Static Media files</a>
+                <a onclick="toolbar()">Debug toolbar</a>
+              </div>
+            </div>
+          </div>
 
-<!-- MENU -->
-    <div class="btnHolder">
-      <div class="dropdown">
-        <button class="dropbtn">MENU</button>
-        <div class="dropdown-content">
-          <a href="#commands">Commands</a>
-          <a href="#django_structure">File Structure</a>
-          <a href="#first_app">Getting Started</a>
-          <a href="#templates">Building Templates</a>
-          <a href="#static">Static Media files</a>
-          <a href="#toolbar">Debug toolbar</a>
-          <a href="#">Top</a>
-          <a onclick="history.back()">BACK</a>
+      <!-- TITLE -->
+          <div class="title">
+            <img class="icon" src="../../images/django.svg" alt="">
+            <h1 class="noteTitle">Django Notes</h1>
+          </div>
+
+
+
+
+      <!-- IMAGES -->
+
+          <div class="thumbnail container">
+            <img id="thumb" src='image/diagram.png' alt=""/>
+          </div>
+
+          <div class="instruction">
+            <h2>Click the menu button at the top of the screen to select from the note catagories</h2>
+          </div>
+
+      <!-- BACK BUTTON-->
+        <div onclick="history.back()" class="box">
+          <a href="" onclick="return yes_back_button();" class="btn btn-white btn-animation-1"><<</a>
         </div>
-      </div>
+
+        <!-- DON'T STEP ON MY FOOT!..er -->
+        <footer>
+          <h4>Code Notes</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <table border="0">
+            <thead>
+              <th><h5>Contact the developer:</h5></th>
+              <th><p>dev@email.com</p></th>
+            </thead>
+            <tr>
+              <td>
+                <a href="https://github.com/jcom619" rel="noopener" target="_blank">GitHub</a>
+              </td>
+              <td>
+                <a href="https://www.linkedin.com/in/joshua-compton-coder/" rel="noopener" target="_blank">LinkedIn</a>
+              </td>
+            </tr>
+          </table>
+        </footer>
     </div>
 
-<!-- TITLE -->
-    <div class="title">
-      <img src="../../images/django.png" class="title-image"/>
-      <h1>Django Notes</h1>
-    </div>
 
-
-<!-- IMAGES -->
-  <div class="image-box container">
-    <div id="diagram">
-      <div class="thumbnail">
-        <img src="image/diagram.png" alt="" width="100%">
-      </div>
-    </div>
-    <div id="commands">
-      <div class="thumbnail ">
-        <img src="image/commands.png" alt="" width="100%">
-      </div>
-    </div>
-    <div id="django_structure">
-      <div class="thumbnail ">
-        <img src="image/django_structure.png" alt="" width="100%">
-      </div>
-    </div>
-    <div id="first_app">
-      <div class="thumbnail ">
-        <img src="image/first_app1.png" alt="" width="100%">
-      </div>
-    </div>
-    <div id="templates">
-      <div class="thumbnail">
-        <img src="image/templates1.png" alt="" width="100%">
-        <img src="image/templates2.png" alt="" width="100%">
-        <img src="image/templates3.png" alt="" width="100%">
-        <img src="image/templates4.png" alt="" width="100%">
-        <img src="image/templates5.png" alt="" width="100%">
-        <img src="image/templates6.png" alt="" width="100%">
-        <img src="image/templates7.png" alt="" width="100%">
-        <img src="image/templates8.png" alt="" width="100%">
-        <img src="image/templates9.png" alt="" width="100%">
-        <img src="image/templates10.png" alt="" width="100%">
-        <img src="image/templates11.png" alt="" width="100%">
-      </div>
-    </div>
-    <div id="static">
-      <div class="thumbnail ">
-        <img src="image/static1.png" alt="" width="100%">
-        <img src="image/static2.png" alt="" width="100%">
-        <img src="image/static3.png" alt="" width="100%">
-        <img src="image/static4.png" alt="" width="100%">
-        <img src="image/static5.png" alt="" width="100%">
-      </div>
-    </div>
-    <div id="toolbar">
-      <div class="thumbnail">
-        <img src="image/toolbar.png" alt="" width="100%">
-        <img src="image/toolbar2.png" alt="" width="100%">
-        <img src="image/toolbar3.png" alt="" width="100%">
-        <img src="image/toolbar4.png" alt="" width="100%">
-        <img src="image/toolbar5.png" alt="" width="100%">
-        <img src="image/toolbar6.png" alt="" width="100%">
-        <img src="image/toolbar7.png" alt="" width="100%">
-        <img src="image/toolbar8.png" alt="" width="100%">
-        <img src="image/toolbar9.png" alt="" width="100%">
-        <img src="image/toolbar10.png" alt="" width="100%">
-      </div>
-    </div>
-  </div>
-
-<!-- BACK BUTTON-->
-  <div onclick="history.back()" class="box">
-    <a href="" onclick="return yes_back_button();" class="btn btn-white btn-animation-1"><<</a>
-  </div>
 
 <!--  IN FILE SCRIPTS  -->
-  <script type="text/javascript">
-  //  BACK BUTTON
-  yes_back_button = function() {
-     // Your code here
-     return false;
-  }
-</script>
+
+  <script type="text/javascript" src="django_notes.js"></script>
+
+
   </body>
 </html>
