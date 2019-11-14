@@ -12,6 +12,5 @@ function show(menuItem) {
 
 //  BACK BUTTON
 yes_back_button = function() {
-   // Your code here
    return false;
 }
