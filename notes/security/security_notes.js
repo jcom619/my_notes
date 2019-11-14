@@ -1,4 +1,5 @@
 
+// Dropdown
 function show(menuItem) {
   var pic = "";
   switch (menuItem) {

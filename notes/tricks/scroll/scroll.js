@@ -1,4 +1,3 @@
-
 // scroll effects
 
 window.addEventListener('scroll', function(e) {

@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="Description" content="a static website for keeping my notes">
-    <meta name="theme-color" content="black">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>test</title>
     <link rel="stylesheet"
-          href="scroll.css">
+          href="../styles/scroll.css">
   </head>
   <body>
 
@@ -60,7 +57,7 @@
 <!-- DIAGONAL HOME BUTTON -->
 
     <a class="scroll ball"
-       href="https://jcom619.github.io/my_notes"
+       href="notes.html"
        data-direction="horizontal"
        data-rateY="0.1"
        data-rateX="0.2"
@@ -72,25 +69,27 @@
       <p class="scroll"
          data-rate="0.05"
          data-direction="vertical">
-        <a href="scroll.js"
+        <a href="../script/scroll.js"
            target="_blank">
           Click Here!
         </a>
         to see the JavaScript
       </p>
+
       <p class="scroll"
          data-rate="0.1"
          data-direction="vertical">
-        <a href="scroll.css"
+        <a href="../styles/scroll.css"
            target="_blank">
           Click Here!
         </a>
         to see the CSS
       </p>
+
       <p class="scroll"
          data-rate="0.15"
          data-direction="vertical">
-        <a href="scroll.txt"
+        <a href="../text/scroll.txt"
            target="_blank">
           Click Here!
         </a>
@@ -98,21 +97,8 @@
       </p>
     </section>
 
-<!-- BACK BUTTON-->
-    <div onclick="history.back()" class="box">
-      <a href="" onclick="return yes_back_button();" class="btn btn-white btn-animation-1"><<</a>
-    </div>
-
-<!--  IN FILE SCRIPTS  -->
-    <script type="text/javascript">
-    //  BACK BUTTON
-    yes_back_button = function() {
-       // Your code here
-       return false;
-    }
-  </script>
-
-    <script src="scroll.js">
+    <script src="../script/scroll.js">
     </script>
+
   </body>
 </html>
