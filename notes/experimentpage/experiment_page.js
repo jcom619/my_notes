@@ -75,7 +75,7 @@ function show(menuItem) {
   var pic = "";
   switch (menuItem) {
     case 'argyle':
-      pic = "../../images/argyle.png"
+      pic = "image/commands.svg"
       break;
     case 'squares':
       pic = "../../images/squares.png"

@@ -1,0 +1,31 @@
+<svg fill="rgba(0,0,0,0.5)"
+     version="1.1"
+     width="400"
+     height="1000"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg"
+     class="logo">
+
+<text x="50%"
+      y="30"
+      dominant-baseline="middle"
+      text-anchor="middle"
+      stroke="rgba(255,255,255,0.2)"
+      stroke-width="1"
+      fill="rgba(255,255,255,0.5)" >
+      BASIC TERMINAL COMMANDS:
+</text>
+<text x="50%"
+      y="50"
+      dominant-baseline="middle"
+      text-anchor="middle"
+      stroke="rgba(255,255,255,0.2)"
+      stroke-width="1"
+      fill="rgba(255,255,55,0.5)" >
+      Start a virtual environment with conda
+</text>
+
+
+<image dominant-baseline="middle" x="0%" y="100" width="100%"  href="../../../images/argyle.png"/>
+
+</svg>
