@@ -11,7 +11,28 @@
   </head>
   <body>
     <div class="container all">
-      <!-- MENU -->
+
+
+  <!-- MENU -->
+
+      <div class='dropdown'>
+        <div class='title pointerCursor'>Select  <i class="fa fa-angle-right"></i></div>
+          <div class='menu pointerCursor hide'>
+
+          <!-- links -->
+          <div style="margin-top:8px;" class='option' onclick="show('commands')">Commands</div>
+          <div class='option' onclick="show('django_structure')">File Structure</div>
+          <div style="margin-top:8px;" class='option' onclick="show('first_app1')">Start An App</div>
+
+          <div class='option' onclick="show('temps')">Build Templates</div>
+          <div class='option' onclick="show('static')">Static Files</div>
+          <div style="margin-top:8px;" class='option' onclick="show('toolbar')">Debug Toolbar</div>
+
+
+        </div>
+      </div>
+
+      <!-- MENU
           <div class="btnHolder">
             <div class="dropdown">
               <button class="dropbtn">MENU</button>
@@ -23,18 +44,16 @@
                 <a onclick="show('temps')">Building Templates</a>
                 <a onclick="show('static')">Static Media files</a>
                 <a onclick="show('toolbar')">Debug toolbar</a>
+
               </div>
             </div>
           </div>
+       TITLE -->
 
-      <!-- TITLE -->
-          <div class="title">
+          <div class="Title">
             <img class="icon" src="../../images/django.svg" alt="">
             <h1 class="noteTitle">Django Notes</h1>
           </div>
-
-
-
 
       <!-- IMAGES -->
 
@@ -54,7 +73,10 @@
         <!-- DON'T STEP ON MY FOOT!..er -->
         <footer>
           <h4>Code Notes</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
           <table border="0">
             <thead>
               <th><h5>Contact the developer:</h5></th>
@@ -65,7 +87,9 @@
                 <a href="https://github.com/jcom619" rel="noopener" target="_blank">GitHub</a>
               </td>
               <td>
-                <a href="https://www.linkedin.com/in/joshua-compton-coder/" rel="noopener" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/joshua-compton-coder/"
+                   rel="noopener"
+                   target="_blank">LinkedIn</a>
               </td>
             </tr>
           </table>
