@@ -69,10 +69,10 @@ document.querySelector('.dropdown .title').addEventListener('change',handleTitle
 
 
 function show(menuItem) {
-  var pic = "";
+  var page = "";
   switch (menuItem) {
     case 'commands':
-      pic = "image/commands.png"
+      page = "image/commands.png"
       break;
 
     default:
