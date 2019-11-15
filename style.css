@@ -99,8 +99,6 @@ th {
 
 /* ####################################### */
 
-
-
 .hide {
     max-height: 0 !important;
 }
@@ -119,7 +117,7 @@ th {
 }
 .dropdown .menu .option{
 
-  padding: 2px;
+  padding: 4px;
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 6px;

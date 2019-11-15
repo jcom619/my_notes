@@ -12,13 +12,10 @@
   <body>
     <div class="container all">
 
-
-  <!-- MENU -->
-
+<!-- MENU -->
       <div class='dropdown'>
         <div class='title pointerCursor'>Select  <i class="fa fa-angle-right"></i></div>
           <div class='menu pointerCursor hide'>
-
           <!-- links -->
           <div style="margin-top:8px;" class='option' onclick="show('commands')">Commands</div>
           <div class='option' onclick="show('django_structure')">File Structure</div>
@@ -26,81 +23,57 @@
           <div class='option' onclick="show('temps')">Build Templates</div>
           <div class='option' onclick="show('static')">Static Files</div>
           <div class='option' onclick="show('toolbar')">Debug Toolbar</div>
-
-
         </div>
       </div>
 
-      <!-- MENU
-          <div class="btnHolder">
-            <div class="dropdown">
-              <button class="dropbtn">MENU</button>
-              <div class="dropdown-content">
+<!-- TITLE -->
+      <div class="Title">
+        <img class="icon" src="../../images/django.svg" alt="">
+        <h1 class="noteTitle">Django Notes</h1>
+      </div>
 
-                <a onclick="show('commands')">Commands</a>
-                <a onclick="show('django_structure')">File Structure</a>
-                <a onclick="show('first_app1')">Getting Started</a>
-                <a onclick="show('temps')">Building Templates</a>
-                <a onclick="show('static')">Static Media files</a>
-                <a onclick="show('toolbar')">Debug toolbar</a>
+<!-- IMAGES -->
+      <div class="thumbnail container">
+        <img id="thumb" src='image/diagram.png' alt=""/>
+      </div>
 
-              </div>
-            </div>
-          </div>
-       TITLE -->
+      <div class="instruction">
+        <h2>Click the menu button at the top of the screen to select from the note catagories</h2>
+      </div>
 
-          <div class="Title">
-            <img class="icon" src="../../images/django.svg" alt="">
-            <h1 class="noteTitle">Django Notes</h1>
-          </div>
+<!-- BACK BUTTON-->
+      <div onclick="history.back()" class="box">
+        <a href="" onclick="return yes_back_button();" class="btn btn-white btn-animation-1"><<</a>
+      </div>
 
-      <!-- IMAGES -->
-
-          <div class="thumbnail container">
-            <img id="thumb" src='image/diagram.png' alt=""/>
-          </div>
-
-          <div class="instruction">
-            <h2>Click the menu button at the top of the screen to select from the note catagories</h2>
-          </div>
-
-      <!-- BACK BUTTON-->
-        <div onclick="history.back()" class="box">
-          <a href="" onclick="return yes_back_button();" class="btn btn-white btn-animation-1"><<</a>
-        </div>
-
-        <!-- DON'T STEP ON MY FOOT!..er -->
-        <footer>
-          <h4>Code Notes</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <table border="0">
-            <thead>
-              <th><h5>Contact the developer:</h5></th>
-              <th><p>dev@email.com</p></th>
-            </thead>
-            <tr>
-              <td>
-                <a href="https://github.com/jcom619" rel="noopener" target="_blank">GitHub</a>
-              </td>
-              <td>
-                <a href="https://www.linkedin.com/in/joshua-compton-coder/"
-                   rel="noopener"
-                   target="_blank">LinkedIn</a>
-              </td>
-            </tr>
-          </table>
-        </footer>
+<!-- DON'T STEP ON MY FOOT!..er -->
+      <footer>
+        <h4>Code Notes</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <table border="0">
+          <thead>
+            <th><h5>Contact the developer:</h5></th>
+            <th><p>dev@email.com</p></th>
+          </thead>
+          <tr>
+            <td>
+              <a href="https://github.com/jcom619" rel="noopener" target="_blank">GitHub</a>
+            </td>
+            <td>
+              <a href="https://www.linkedin.com/in/joshua-compton-coder/"
+                 rel="noopener"
+                 target="_blank">LinkedIn</a>
+            </td>
+          </tr>
+        </table>
+      </footer>
     </div>
 
-
-
 <!--  IN FILE SCRIPTS  -->
-
   <script type="text/javascript" src="django_notes.js"></script>
-
 
   </body>
 </html>
