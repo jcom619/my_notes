@@ -1,0 +1,28 @@
+<svg fill="rgba(0,0,0,0.5)"
+     version="1.1"
+     width="600"
+     height="550"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg"
+     class="logo">
+
+<text x="50%"
+      y="2.5em"
+      dominant-baseline="middle"
+      text-anchor="middle"
+      stroke="rgba(255,255,255,0.2)"
+      stroke-width=".5"
+      fill="rgba(255,255,55,0.5)"
+      font-size="1.2em" >
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">File Structure </tspan>
+  <tspan x="50%" dy="2em">__init__.py</tspan>
+  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="2em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="2em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+</text>
+
+
+
+</svg>

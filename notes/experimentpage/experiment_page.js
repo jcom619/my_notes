@@ -78,7 +78,7 @@ function show(menuItem) {
       pic = "image/commands.svg"
       break;
     case 'squares':
-      pic = "../../images/squares.png"
+      pic = "image/django_structure.svg"
       break;
     case 'zombie':
       pic = "../../images/icon.png"
