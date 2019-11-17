@@ -28,12 +28,22 @@
   <tspan x="50%" dy="1em">"project_name/project_name/settings.py” sync the “templates”</tspan>
   <tspan x="50%" dy="1em">folder like so...</tspan>
   <tspan x="50%" dy="3em">***</tspan>
-  <tspan x="50%" dy="3em"></tspan>
-  <tspan x="50%" dy="1em"></tspan>
-  <tspan x="50%" dy="1em"></tspan>
-  <tspan x="50%" dy="1em"></tspan>
-  <tspan x="50%" dy="1em"></tspan>
-  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="3em">At the “import os”  under BASE_DIR the TEMPLATES_DIR</tspan>
+  <tspan x="50%" dy="1em">Join templates to the base directory</tspan>
+  <tspan x="50%" dy="2em">Step 5</tspan>
+  <tspan x="50%" dy="1em">After the “TEMPLATES_DIR” name is assigned, add it to</tspan>
+  <tspan x="50%" dy="1em">TEMPLATES = [ ‘DIRS’ : [ TEMPLATES_DIR, ], ]</tspan>
+  <tspan x="50%" dy="1em">like so…</tspan>
+  <tspan x="50%" dy="3em">***</tspan>
+  <tspan x="50%" dy="3em">This way it is assigned to the directories</tspan>
+  <tspan x="50%" dy="2em">step 6</tspan>
+  <tspan x="50%" dy="1em">Sync up and map URL’s by creating a second “urls.py file”</tspan>
+  <tspan x="50%" dy="1em">under the “project_name/app_name/urls.py” file</tspan>
+  <tspan x="50%" dy="3em">***</tspan>
+  <tspan x="50%" dy="3em">Then connect it to the original “urls.py” file…</tspan>
+  <tspan x="50%" dy="3em">***</tspan>
+  <tspan x="50%" dy="3em">this will require importing the include module</tspan>
+  <tspan x="50%" dy="1em">“from django.conf.urls import “include”</tspan>
   <tspan x="50%" dy="1em"></tspan>
 </text>
 
