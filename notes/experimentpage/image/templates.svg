@@ -1,0 +1,40 @@
+<svg fill="rgba(0,0,0,0.5)"
+     version="1.1"
+     width="600"
+     height="1550"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg"
+     class="logo"
+>
+
+<text x="50%"
+      y="2.5em"
+      dominant-baseline="middle"
+      text-anchor="middle"
+      stroke="rgba(255,255,255,0.2)"
+      stroke-width=".5"
+      fill="rgba(255,255,55,0.5)"
+      font-size="1.2em" >
+
+  <tspan x="50%" dy="1em">Building Templates</tspan>
+  <tspan x="50%" dy="3em">Step 1</tspan>
+  <tspan x="50%" dy="1em">Create “templates” folder at - “base/project_folder/templates”</tspan>
+  <tspan x="50%" dy="2em">Step 2</tspan>
+  <tspan x="50%" dy="1em">Create a second “app_name” folder as a sub directory to "templates”</tspan>
+  <tspan x="50%" dy="2em">Step 3</tspan>
+  <tspan x="50%" dy="1em">Create “index.html” within the “templates/app_name”</tspan>
+  <tspan x="50%" dy="2em">Step 4</tspan>
+  <tspan x="50%" dy="1em">In the ”settings.py” file at</tspan>
+  <tspan x="50%" dy="1em">"project_name/project_name/settings.py” sync the “templates”</tspan>
+  <tspan x="50%" dy="1em">folder like so...</tspan>
+  <tspan x="50%" dy="3em">***</tspan>
+  <tspan x="50%" dy="3em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+</text>
+
+</svg>

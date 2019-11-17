@@ -74,14 +74,17 @@ document.querySelector('.dropdown .title').addEventListener('change',handleTitle
 function show(menuItem) {
   var pic = "";
   switch (menuItem) {
-    case 'argyle':
+    case 'commands':
       pic = "image/commands.svg"
       break;
-    case 'squares':
+    case 'structure':
       pic = "image/django_structure.svg"
       break;
-    case 'zombie':
-      pic = "../../images/icon.png"
+    case 'first_app':
+      pic = "image/first_app.svg"
+      break;
+    case 'templates':
+      pic = "image/templates.svg"
       break;
     default:
   }

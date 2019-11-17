@@ -1,0 +1,37 @@
+<svg fill="rgba(0,0,0,0.5)"
+     version="1.1"
+     width="600"
+     height="550"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.w3.org/2000/svg"
+     class="logo"
+>
+
+<text x="50%"
+      y="2.5em"
+      dominant-baseline="middle"
+      text-anchor="middle"
+      stroke="rgba(255,255,255,0.2)"
+      stroke-width=".5"
+      fill="rgba(255,255,55,0.5)"
+      font-size="1.2em" >
+
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">Make a Django App!</tspan>
+  <tspan x="50%" dy="2em" fill="rgba(255,255,255,0.5)">App Structure</tspan>
+  <tspan x="50%" dy="3em">admin.py</tspan>
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">To register models to use with django admin interface</tspan>
+  <tspan x="50%" dy="2em">apps.py</tspan>
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">For application specific configurations</tspan>
+  <tspan x="50%" dy="2em">models.py</tspan>
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">To store application’s data models</tspan>
+  <tspan x="50%" dy="2em">tests.py</tspan>
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">Stores test functions to test your code</tspan>
+  <tspan x="50%" dy="2em">views.py</tspan>
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">Holds functions that handle request and return responses</tspan>
+  <tspan x="50%" dy="2em">(directory) migrations</tspan>
+  <tspan x="50%" dy="1em" fill="rgba(255,255,255,0.5)">A directory to store database specific information relating to models</tspan>
+  <tspan x="50%" dy="2em"></tspan>
+  <tspan x="50%" dy="1em"></tspan>
+</text>
+
+</svg>

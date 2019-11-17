@@ -76,13 +76,13 @@ function show(menuItem) {
   var pic = "";
   switch (menuItem) {
     case 'commands':
-      pic = "image/commands.png"
+      pic = "image/commands.svg"
       break;
     case 'django_structure':
-      pic = "image/django_structure.png"
+      pic = "image/django_structure.svg"
       break;
     case 'first_app1':
-      pic = "image/first_app1.png"
+      pic = "image/first_app.svg"
       break;
     case 'temps':
       pic = "image/templates.png"
