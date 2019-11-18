@@ -44,7 +44,7 @@
   <tspan x="50%" dy="3em">***</tspan>
   <tspan x="50%" dy="3em">this will require importing the include module</tspan>
   <tspan x="50%" dy="1em">“from django.conf.urls import “include”</tspan>
-  <tspan x="50%" dy="1em"></tspan>
+  
 </text>
 
 </svg>
