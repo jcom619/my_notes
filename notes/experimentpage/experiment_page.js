@@ -61,13 +61,8 @@ dropdownTitle.addEventListener('click', toggleMenuDisplay);
 
 dropdownOptions.forEach(option => option.addEventListener('click',handleOptionSelected));
 
-document.querySelector('.dropdown .title').addEventListener('change',handleTitleChange);
-
-
-
-
-
-
+document.querySelector('.dropdown .title')
+        .addEventListener('change',handleTitleChange);
 
 
 // image result, add - onclick"show('argyle')" - to button in html
@@ -93,43 +88,7 @@ function show(menuItem) {
 
 
 
-
 //  BACK BUTTON
 yes_back_button = function() {
    return false;
 }
-
-
-
-
-
-
-
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
