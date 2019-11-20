@@ -1,11 +1,33 @@
 <svg fill="rgba(0,0,0,0.5)"
      version="1.1"
      width="600"
-     height="1550"
+     height="2200"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns="http://www.w3.org/2000/svg"
      class="logo"
 >
+
+
+
+<svg x="200" y="430" width="600" height="600"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <image xlink:href="file://../../../images/icon.png/" height="200" width="200"/>
+</svg>
+
+<svg x="200" y="930" width="600" height="600"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <image xlink:href="file://../../../images/icon.png/" height="200" width="200"/>
+</svg>
+
+<svg x="200" y="1400" width="600" height="600"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <image xlink:href="file://../../../images/icon.png/" height="200" width="200"/>
+</svg>
+
+<svg x="200" y="1790" width="600" height="600"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <image xlink:href="file://../../../images/icon.png/" height="200" width="200"/>
+</svg>
 
 <text x="50%"
       y="2.5em"
@@ -27,24 +49,28 @@
   <tspan x="50%" dy="1em">In the ”settings.py” file at</tspan>
   <tspan x="50%" dy="1em">"project_name/project_name/settings.py” sync the “templates”</tspan>
   <tspan x="50%" dy="1em">folder like so...</tspan>
-  <tspan x="50%" dy="3em">***</tspan>
-  <tspan x="50%" dy="3em">At the “import os”  under BASE_DIR the TEMPLATES_DIR</tspan>
+
+
+  <tspan x="50%" dy="20em">At the “import os”  under BASE_DIR the TEMPLATES_DIR</tspan>
   <tspan x="50%" dy="1em">Join templates to the base directory</tspan>
   <tspan x="50%" dy="2em">Step 5</tspan>
   <tspan x="50%" dy="1em">After the “TEMPLATES_DIR” name is assigned, add it to</tspan>
   <tspan x="50%" dy="1em">TEMPLATES = [ ‘DIRS’ : [ TEMPLATES_DIR, ], ]</tspan>
   <tspan x="50%" dy="1em">like so…</tspan>
-  <tspan x="50%" dy="3em">***</tspan>
-  <tspan x="50%" dy="3em">This way it is assigned to the directories</tspan>
+
+
+  <tspan x="50%" dy="20em">This way it is assigned to the directories</tspan>
   <tspan x="50%" dy="2em">step 6</tspan>
   <tspan x="50%" dy="1em">Sync up and map URL’s by creating a second “urls.py file”</tspan>
   <tspan x="50%" dy="1em">under the “project_name/app_name/urls.py” file</tspan>
-  <tspan x="50%" dy="3em">***</tspan>
-  <tspan x="50%" dy="3em">Then connect it to the original “urls.py” file…</tspan>
-  <tspan x="50%" dy="3em">***</tspan>
-  <tspan x="50%" dy="3em">this will require importing the include module</tspan>
+
+
+  <tspan x="50%" dy="20em">Then connect it to the original “urls.py” file…</tspan>
+
+
+  <tspan x="50%" dy="20em">this will require importing the include module</tspan>
   <tspan x="50%" dy="1em">“from django.conf.urls import “include”</tspan>
-  
+
 </text>
 
 </svg>

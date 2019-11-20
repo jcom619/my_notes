@@ -6,9 +6,6 @@
      xmlns="http://www.w3.org/2000/svg"
      class="logo">
 
-<svg x="50%" y="25em" width="100" height="221px" overflow="visible">
-  <image x="-300px" y="-200.5px" width="600" xlink:href="../../django/image/icon.png"/>
-</svg>
 
 <text x="50%"
       y="2.5em"
