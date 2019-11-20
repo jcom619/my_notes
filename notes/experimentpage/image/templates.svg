@@ -8,10 +8,10 @@
 >
 
 
-<svg x="200" y="430" width="600" height="600"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <image xlink:href="https://jcom619.github.io/my_notes/images/pen.png" height="200" width="200"/>
-</svg>
+
+
+  <image x="200" y="430" width="200" height="200" xlink:href="https://jcom619.github.io/my_notes/images/pen.png/"/>
+
 
 <svg x="200" y="930" width="600" height="600"
   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
